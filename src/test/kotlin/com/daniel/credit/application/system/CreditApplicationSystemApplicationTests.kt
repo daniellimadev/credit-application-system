@@ -1,4 +1,4 @@
-package com.daniel.creditapplicationsystem
+package com.daniel.credit.application.system
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

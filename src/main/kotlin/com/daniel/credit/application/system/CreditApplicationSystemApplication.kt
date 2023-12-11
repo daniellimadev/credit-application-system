@@ -1,4 +1,4 @@
-package com.daniel.creditapplicationsystem
+package com.daniel.credit.application.system
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
