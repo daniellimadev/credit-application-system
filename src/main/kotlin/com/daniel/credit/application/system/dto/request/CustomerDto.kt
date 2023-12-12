@@ -1,4 +1,4 @@
-package com.daniel.credit.application.system.dto
+package com.daniel.credit.application.system.dto.request
 
 import com.daniel.credit.application.system.entity.Address
 import com.daniel.credit.application.system.entity.Customer
