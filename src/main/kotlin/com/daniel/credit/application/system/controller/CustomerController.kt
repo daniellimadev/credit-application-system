@@ -16,8 +16,9 @@ import org.springframework.web.bind.annotation.*
 class CustomerController (
     private val customerService: CustomerService
 ) {
+
     @PostMapping
-    fun saveCustomer(@RequestBody  customerDto: CustomerDto): ResponseEntity<CustomerView> {
+    fun saveCustomer(@RequestBody @Valid customerDto: CustomerDto): ResponseEntity<CustomerView> {
         val savedCustomer: Customer = this.customerService.save(customerDto.toEntity())
         return ResponseEntity.status(HttpStatus.CREATED).body(CustomerView(savedCustomer))
     }
